@@ -1,0 +1,106 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section{
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+body{
+    margin-top: 50px;
+    background-color: aqua;
+    margin-left: 15px;
+    margin-right: 15px;
+    min-height: 100vh;
+}
+.box{
+    position: relative;
+    height: 500px;
+    width: 600px;
+    background-color: aquamarine;
+    text-align: center;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo1{
+    margin:5px;
+    position: relative;
+    width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    display:flex;
+    justify-content: center;
+}
+
+h2{
+    margin: 10px;
+    font-size: 2em;
+    color: #010c80;
+    font-style: strong;
+}
+
+.inputbox{
+    position: relative;
+    margin: 20px 0;
+    width: 300px;
+    border-bottom: 2px solid transparent;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: grey;
+    font-size: 1em;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    background:transparent;
+    font-size: 1em;
+    padding: 0 35px 0 50px;
+    color: gray;
+    border-color: black;
+}
+
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: grey;
+    font-size: 1.2em;
+    top: 35%;
+}
+
+.forgot{
+    margin: 5px;
+    font-size: .9em;
+    color: grey;
+    display: flex;
+    justify-content: center;
+}
+
+.forgot label input{
+    margin-right: 3px;
+}
+
+.forgot label a{
+    color: grey;
+}
+
+button{
+    margin: 20px;
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+}
